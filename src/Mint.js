@@ -73,7 +73,7 @@ const Mint = (props) => {
     const e18 = 1000000000000000000
 
     const balance = wei / e18
-    const price = 0.01
+    const price = 0.05
     const gas = 0.0000000005
 
     if (balance < (price * quantity) + gas) {
@@ -156,23 +156,21 @@ const Mint = (props) => {
   }, [web3, user])
 
   return <>
-    <div className="bg-giraffe bg-cover text-black pb-10">
-      <div className="containerr mx-10 mx-auto w-full pt-2">
+    <a name="Mint" />
+    <div className="bg-white bg-cover text-black pb-5">
+      <div className="containerr mx-auto w-full ">
         {/* eslint-disable-next-line */}
-        <a name="Mint" />
+        
         <Reveal type={<RubberBand />} className="">
-          <div className="bg-green-900 bg-opacity-60 z-0 h-96 w-5/6 m-auto rounded my-3 text-white">
-            <div className="mx-10 p-5 pb-0 flex">
-              <div className="text-2xl text-bold text-mono">Mint</div><br />
-              <button onClick={connect} className="px-4 py-2 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-yellow-500 rounded ml-3">Connect Wallet</button>
-              <button onClick={mint} disabled={!web3} className="px-4 py-2 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-yellow-500 rounded ml-3">Mint Tokens</button>
-            </div>
+          <div className="bg-hero bg-cover z-0 h-60 w-5/6 m-auto rounded my-3 text-black">
+          <div className="containerr text-black font-gloria text-7xl rounded pb-12 pt-3">Minting!</div>
+              <button className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria">Connect Wallet</button>
+              <button disabled={!web3} className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria">Mint a Mallard!</button>
+              <div className="containerr text-black font-gloria text-xl rounded pb-12 pt-3">( It's not quite time to migrate yet! )</div>
           </div>
         </Reveal>
-        {JSON.stringify(user)}
       </div>
     </div>
-
   </>
 
 

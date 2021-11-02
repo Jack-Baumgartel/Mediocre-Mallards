@@ -6,10 +6,10 @@ const Nav = () => {
 
   let links = [
     "Stats",
-    "Merch",
-    "Meet the Mallards",
+    "Migration Plan",
     "Mint",
-    "FAQ"
+    "Meet the Mallards",
+    "FAQ",
   ]
 
   return <nav className="">
