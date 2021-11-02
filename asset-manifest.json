@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Mediocre-Mallards/static/css/main.07b88070.chunk.css",
-    "main.js": "/Mediocre-Mallards/static/js/main.e9ebc917.chunk.js",
-    "main.js.map": "/Mediocre-Mallards/static/js/main.e9ebc917.chunk.js.map",
+    "main.css": "/Mediocre-Mallards/static/css/main.8da3d0b2.chunk.css",
+    "main.js": "/Mediocre-Mallards/static/js/main.b69647d9.chunk.js",
+    "main.js.map": "/Mediocre-Mallards/static/js/main.b69647d9.chunk.js.map",
     "runtime-main.js": "/Mediocre-Mallards/static/js/runtime-main.7180321a.js",
     "runtime-main.js.map": "/Mediocre-Mallards/static/js/runtime-main.7180321a.js.map",
     "static/js/2.1add3df3.chunk.js": "/Mediocre-Mallards/static/js/2.1add3df3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.64ea9b07.chunk.js": "/Mediocre-Mallards/static/js/3.64ea9b07.chunk.js",
     "static/js/3.64ea9b07.chunk.js.map": "/Mediocre-Mallards/static/js/3.64ea9b07.chunk.js.map",
     "index.html": "/Mediocre-Mallards/index.html",
-    "static/css/main.07b88070.chunk.css.map": "/Mediocre-Mallards/static/css/main.07b88070.chunk.css.map",
+    "static/css/main.8da3d0b2.chunk.css.map": "/Mediocre-Mallards/static/css/main.8da3d0b2.chunk.css.map",
     "static/js/2.1add3df3.chunk.js.LICENSE.txt": "/Mediocre-Mallards/static/js/2.1add3df3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7180321a.js",
     "static/js/2.1add3df3.chunk.js",
-    "static/css/main.07b88070.chunk.css",
-    "static/js/main.e9ebc917.chunk.js"
+    "static/css/main.8da3d0b2.chunk.css",
+    "static/js/main.b69647d9.chunk.js"
   ]
 }
