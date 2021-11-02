@@ -51,7 +51,7 @@ function App() {
     },
     {
       step: "Step 2 : ",
-      title: " MIGRATION!!",
+      title: " Migration!!",
       text: "Yes you read that right, as soon as our flock is 10,000 strong, minting goes live! Mallards will migrate from the smart contract into wallets all around the world. Prepare yourself, this could be one of the fastest migrations ever! "
     },
     {
@@ -70,12 +70,12 @@ function App() {
           <a name="Welcome" />
           <div className="containerr px-10 mx-auto w-full">
             <Nav />
-            <div className="w-3/2 text-left select-none font-gloria text-6xl text-black"> Welcome to the flock </div>
-            <div className="w-1/2 text-left select-none font-gloria text-3xl mt-5 text-black pb-3">A digital collection of 9,250 quirky, lovable, and totally unique ducks.</div>
-            <div className="ml-auto flex flex-nowrap">
-            <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-5 mt-3" size={40} /></a>
-            <a href="http://tiktok.com"><FaTiktok className="ml-5 mt-3" size={40} /></a>
-            <a href="http://discord.org"><FaDiscord className="ml-5 mt-3" size={40} /></a>
+            <div className="w-full text-left select-none font-gloria text-6xl text-black"> Welcome to the flock </div>
+            <div className="text-left select-none font-gloria text-3xl mt-5 text-black pb-3 mx-0">A digital collection of 9,250 quirky, lovable, and totally unique ducks.</div>
+            <div className="ml-4 flex flex-nowrap">
+            <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-7 mt-3" size={40} /></a>
+            <a href="http://tiktok.com"><FaTiktok className="ml-7 mt-3" size={40} /></a>
+            <a href="http://discord.org"><FaDiscord className="ml-7 mt-3" size={40} /></a>
             <br /><br />
             </div>
           </div>
@@ -83,22 +83,22 @@ function App() {
       </div>
 
       {/* Project Stats */}
-      <div className="bg-booyah bg-cover font-roboto text-white">
+      <div className="bg-booyah bg-cover w-full font-roboto text-white">
       <a name="Stats" />
         <div className="bg-opacity-0 bg-gray-800 py-10">
           {/* eslint-disable-next-line */}
-          <Reveal type={<Fade left />} className="container mx-10 mx-auto w-full">
-            <div className="text-white font-gloria text-5xl">Project Stats</div>
-            <div className="flex justify-center flex-row m-auto align-center text-white font-bold text-lg">
-              <div className="w-96 bg-1 m-2 p-2 rounded">
+          <Reveal type={<Fade left />} className="container mx-8 mx-auto">
+            <div className="text-white font-gloria text-5xl pb-3 w-full">Project Stats</div>
+            <div className="flex justify-center flex-row m-3 align-center text-white font-bold text-lg">
+              <div className="w-96 bg-1 m-auto p-2 rounded ">
                 <img alt="NFT" className="shadow-lg mb-5 border border-black rounded max-w-full h-auto align-middle" src='https://ipfs.io/ipfs/QmSmWVQUGbMqYfbB2pD1vEgfBwtEkTn2n3MAh7CaGLEhog' />
                 <p>15 Properties & 165 Attributes!</p>
               </div>
-              <div className="w-96 bg-1 m-2 p-2 rounded">
-                <img alt="NFT" className=" mb-5 rounded max-w-full h-auto align-middle" src='https://ipfs.io/ipfs/QmWCqD9V3xjanDrGcD46mNcS3zb8j8Xr1hfZmmGyM6GmTH' />
+              <div className="w-96 bg-1 m-auto p-2 rounded">
+                <img alt="NFT" className=" mb-8 rounded max-w-full h-auto align-middle" src='https://ipfs.io/ipfs/QmWCqD9V3xjanDrGcD46mNcS3zb8j8Xr1hfZmmGyM6GmTH' />
                 <p>Names for every duck!</p>
               </div>
-              <div className="w-96 bg-1 m-2 p-2 rounded">
+              <div className="w-96 bg-1 m-auto p-2 rounded">
                 <img alt="NFT" className="shadow-lg mb-5 border border-black rounded max-w-full h-auto align-middle" src='https://ipfs.io/ipfs/QmTtSE6D48xWSrYkLh6PtyHa1mW6z5zkmJtBt877u5PVUf' />
                 <p>Quirky Personalities!</p>
               </div>
@@ -111,18 +111,18 @@ function App() {
       {/* Migration Plan */}
       <div className="bg-tiles bg-cover">
         <a name="Migration Plan"/>
-        <div className="containerr mx-10 mx-auto w-full pt-10 pb-10">
-          <Reveal type={<Fade right />} className="container mx-10 mx-auto w-full">
-            <div className="containerr text-black font-gloria text-6xl bg-white rounded mx-40 p-2 border-2 border-black ">Migration Plan</div>
+        <div className="containerr mx-auto w-full pt-10 pb-10">
+          <Reveal type={<Fade right />} className="container mx-auto ">
+            <div className="containerr text-black font-gloria text-5xl bg-white rounded p-2 py-3 mx-10 border-2 border-black">Migration Plan</div>
           </Reveal>
           {Plan.map(goal => <Reveal type={<Fade right/>} key={goal.step} className="bg-gray pt-10 flex">
             <div className="bg-white bg-opacity-100 z-0 w-5/6 m-auto rounded mt-10 text-black border-2 border-black">
-              <div className="mx-10 p-5 pb-0 flex">
-                <div className="text-xl mr-3 text-black font-gloria">{goal.step}</div>
+              <div className="mx-2 p-5 pb-0 flex">
+                <div className="text-l mr-3 text-black font-gloria">{goal.step}</div>
                 <div className="text-3xl font-gloria ">{goal.title}</div><br />
               </div>
-              <div className="mx-10 p-5 flex">
-                <div className="text-lg text-bold text-mono text-left">{goal.text}</div>
+              <div className="mx-0 p-4 flex">
+                <div className="text-l text-bold text-mono text-left">{goal.text}</div>
               </div>
             </div>
           </Reveal>)}
@@ -141,26 +141,26 @@ function App() {
           {/* eslint-disable-next-line */}
           <Reveal type={<Fade left />} from={{ y: 1800 }} to={{ y: 0 }} className="containerr mx-10 mx-auto w-full">
             <div className="text-white font-gloria text-5xl p-4 pt-6">Meet the Mallards!</div>
-            <div className="flex justify-center flex-row m-auto text-white font-bold text-lg">
-              {nfts.slice(0, 5).map(nft => <div key={nft.name} className="w-72 bg-1 m-2 p-2 rounded">
+            <div className="flex justify-center flex-row m-auto text-white font-bold text-l">
+              {nfts.slice(0, 5).map(nft => <div key={nft.name} className="w-72 bg-1 m-1 p-1 rounded">
                 {nft.name}
-                <img alt="NFT" className="shadow-lg  border border-black rounded max-w-full h-auto align-middle" src={nft.image} />
+                <img alt="NFT" className="shadow-lg rounded w-full h-auto align-middle" src={nft.image} />
               </div>)}
             </div>
           </Reveal>
           <Reveal type={<Fade left />} from={{ y: 1800 }} to={{ y: 0 }} className="containerr mx-10 mx-auto w-full">
-            <div className="flex justify-center flex-row m-auto text-white font-bold text-lg">
-              {nfts.slice(5, 10).map(nft => <div key={nft.name} className="w-72 bg-1 m-2 p-2 rounded">
+            <div className="flex justify-center flex-row m-auto text-white font-bold text-l">
+              {nfts.slice(5, 10).map(nft => <div key={nft.name} className="w-72 bg-1 m-1 p-1 rounded">
                 {nft.name}
-                <img alt="NFT" className="shadow-lg  border border-black rounded max-w-full h-auto align-middle" src={nft.image} />
+                <img alt="NFT" className="shadow-lg rounded max-w-full h-auto align-middle" src={nft.image} />
               </div>)}
             </div>
           </Reveal>
           <Reveal type={<Fade left />} from={{ y: 1800 }} to={{ y: 0 }} className="containerr mx-10 mx-auto w-full">
-            <div className="flex justify-center flex-row m-auto text-white font-bold text-lg">
-              {nfts.slice(10, 15).map(nft => <div key={nft.name} className="w-72 bg-1 m-2 p-2 rounded">
+            <div className="flex justify-center flex-row m-auto text-white font-bold text-l">
+              {nfts.slice(10, 15).map(nft => <div key={nft.name} className="w-72 bg-1 m-1 p-1 rounded">
                 {nft.name}
-                <img alt="NFT" className="shadow-lg  border border-black rounded max-w-full h-auto align-middle" src={nft.image} />
+                <img alt="NFT" className="shadow-lg rounded max-w-full h-auto align-middle" src={nft.image} />
               </div>)}
             </div>
           </Reveal>
@@ -175,15 +175,15 @@ function App() {
       {/* FAQ */}
       <div className="bg-faq_bg bg-cover">
         <a name="FAQ" />
-        <div className="containerr mx-10 mx-auto w-full pt-2 pb-5">
+        <div className="containerr mx-5 mx-auto w-full pt-2 pb-5">
         <div className="w-3/2 text-middle select-none font-gloria text-6xl pt-5 text-black"> FAQ</div>
           {/* eslint-disable-next-line */}
           {FAQ.map(goal => <Reveal key={goal.step} className="bg-black pt-10 flex">
-            <div className="bg-gray-900 bg-opacity-80 z-0 w-5/6 m-auto rounded mt-10 text-white">
-              <div className="mx-10 p-5 pb-0 flex">
+            <div className="bg-gray-900 bg-opacity-80 z-0 w-5/6 m-auto rounded mt-8 text-white">
+              <div className="mx-3 p-5 pb-0 flex">
                 <div className="text-3xl font-gloria">{goal.title}</div><br />
               </div>
-              <div className="mx-10 p-5 flex">
+              <div className="mx-1 p-5 flex">
                 <div className="text-lg text-bold text-mono text-left">{goal.text}</div>
               </div>
             </div>
@@ -196,11 +196,11 @@ function App() {
           {/* eslint-disable-next-line */}
           <div className="pb-3 align-left mx-auto ">
             <div className="containerr flex align-left w-full">
-              <a href={`#${""}`}><FaRegCopyright className="ml-7 mt-4 my-auto text-white mx-auto" size={30} /></a>
-              <p className="text-xl font-gloria text-white mt-4 mx-5 align-middle"> 2021 Mediocre Mallards</p>
-              <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-5 mt-3 text-white" size={40} /></a>
-              <a href="http://tiktok.com"><FaTiktok className="ml-5 mt-3 text-white" size={40} /></a>
-              <a href="http://discord.org"><FaDiscord className="ml-5 mt-3 text-white" size={40} /></a>
+              <a href={`#${""}`}><FaRegCopyright className="ml-3 mb-2 mt-7 text-white mr-2" size={20} /></a>
+              <p className="text-l font-gloria mb-2  mt-auto text-white align-middle"> 2021 Mediocre Mallards</p>
+              <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-3 mt-5 text-white" size={40} /></a>
+              <a href="http://tiktok.com"><FaTiktok className="ml-3 mt-5 text-white" size={40} /></a>
+              <a href="http://discord.org"><FaDiscord className="ml-3 mt-5 text-white" size={40} /></a>
             </div>
           </div>
         </div>

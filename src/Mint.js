@@ -162,11 +162,11 @@ const Mint = (props) => {
         {/* eslint-disable-next-line */}
         
         <Reveal type={<RubberBand />} className="">
-          <div className="bg-hero bg-cover z-0 h-60 w-5/6 m-auto rounded my-3 text-black">
-          <div className="containerr text-black font-gloria text-7xl rounded pb-12 pt-3">Minting!</div>
-              <button className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria">Connect Wallet</button>
-              <button disabled={!web3} className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria">Mint a Mallard!</button>
-              <div className="containerr text-black font-gloria text-xl rounded pb-12 pt-3">( It's not quite time to migrate yet! )</div>
+          <div className="bg-hero bg-cover z-0 h-70 w-5/6 m-auto rounded my-3 text-black">
+          <div className="containerr text-black font-gloria text-6xl rounded pb-12 pt-3">Minting!</div>
+              <button className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria m-2">Connect Wallet</button>
+              <button disabled={!web3} className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria m-2">Mint a Mallard!</button>
+              <div className="containerr text-black font-gloria text-xl rounded pb-12 pt-5">( It's not quite time to migrate yet! )</div>
           </div>
         </Reveal>
       </div>
