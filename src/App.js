@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FaTwitter, FaTiktok, FaDiscord, FaRegCopyright} from 'react-icons/fa';
+import { FaTwitter, FaTiktok, FaDiscord, FaRegCopyright, FaStore} from 'react-icons/fa';
 import Nav from './Nav';
 import Mint from './Mint';
 import WebFont from 'webfontloader';
@@ -41,6 +41,11 @@ function App() {
       title: "How can I join the flock?",
       text: "This one is easy! Remember those social media icons at the top (and bottom) of this page? Go to them! Join our Discord server, follow us on Tiktok & Twitter, and you're in!"
     }, 
+    {
+      step: "04",
+      title: "I want more details!",
+      text: <p>That's not really a question, but we love the enthusiasm! <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">You can find more technical details, support, and project info all on our discord!</a> </p>
+    }
   ]
 
   let Plan = [
@@ -74,8 +79,8 @@ function App() {
             <div className="text-left select-none font-gloria text-3xl mt-5 text-black pb-3 mx-0">A digital collection of 9,250 quirky, lovable, and totally unique ducks.</div>
             <div className="ml-4 flex flex-nowrap">
             <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-7 mt-3" size={40} /></a>
-            <a href="http://tiktok.com"><FaTiktok className="ml-7 mt-3" size={40} /></a>
-            <a href="http://discord.org"><FaDiscord className="ml-7 mt-3" size={40} /></a>
+            <a href="https://www.tiktok.com/@mediocremallards"><FaTiktok className="ml-7 mt-3" size={40} /></a>
+            <a href="https://discord.gg/JCrz4g7MuX"><FaDiscord className="ml-7 mt-3" size={40} /></a>
             <br /><br />
             </div>
           </div>
@@ -199,8 +204,8 @@ function App() {
               <a href={`#${""}`}><FaRegCopyright className="ml-3 mb-2 mt-7 text-white mr-2" size={20} /></a>
               <p className="text-l font-gloria mb-2  mt-auto text-white align-middle"> 2021 Mediocre Mallards</p>
               <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-3 mt-5 text-white" size={40} /></a>
-              <a href="http://tiktok.com"><FaTiktok className="ml-3 mt-5 text-white" size={40} /></a>
-              <a href="http://discord.org"><FaDiscord className="ml-3 mt-5 text-white" size={40} /></a>
+              <a href="https://www.tiktok.com/@mediocremallards"><FaTiktok className="ml-3 mt-5 text-white" size={40} /></a>
+              <a href="https://discord.gg/JCrz4g7MuX"><FaDiscord className="ml-3 mt-5 text-white" size={40} /></a>
             </div>
           </div>
         </div>
@@ -214,4 +219,5 @@ function App() {
 }
 
 export default App;
+
 
