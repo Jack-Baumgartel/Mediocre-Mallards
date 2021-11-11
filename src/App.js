@@ -29,22 +29,22 @@ function App() {
     {
       step: "02",
       title: "What makes Mediocre Mallards so special?",
-      text: "Besides the stunning artwork, our Mallards have more charisma than any other NFT out there! We believe that each Mallard we create is worthy of love, and we want to make every single Mallard owner feel special as well. Additionally, we are are one of the few collections offering phyical merchandise, more on that later!"
+      text: "Besides the stunning artwork, our Mallards have more charisma than any other NFT out there! We believe that each Mallard we create is worthy of love, and we want to make every single Mallard owner feel special as well. Additionally, we are are one of the first (only?) projects to offer custom phyical merchandise for NFT holders!"
     },
     {
       step: "04",
       title: "How do I mint one?",
-      text: <p> Great question! The first step is to get yourself a <a href="https://metamask.io/" className="text-xl font-gloria">digital wallet.</a> Once that's done, you can connect your wallet to this website using the <a href={`#${"Mint"}`} className="text-xl font-gloria">Connect Wallet</a> button. From there, you are ready to mint a mallard as soon as the migration begins!</p>
+      text: <p> Great question! The first step is to get yourself a <a href="https://metamask.io/" className="text-xl font-gloria">digital wallet.</a> You'll also need to deposit some Ether (money) into the wallet! You can use a service like <a href="https://www.coinbase.com/" className="text-xl font-gloria">coinbase</a> to buy Ethereum, then send that Ethereum to your Metamask wallet! Once that's done, you can connect your wallet to this website using the <a href={`#${"Mint"}`} className="text-xl font-gloria">Connect Wallet</a> button. From there, you are ready to mint a mallard as soon as the migration begins!</p>
     },
     {
       step: "03",
       title: "How can I join the flock?",
-      text: "This one is easy! Remember those social media icons at the top (and bottom) of this page? Go to them! Join our Discord server, follow us on Tiktok & Twitter, and you're in!"
+      text: "This one is easy! Remember those social media icons at the top (and bottom) of this page? Go to them! Simply join our Discord server to become part of the flock! You should definetely check out our Tiktok & Twitter as well though!"
     }, 
     {
       step: "04",
       title: "I want more details!",
-      text: <p>That's not really a question, but we love the enthusiasm! <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">You can find more technical details, support, and project info all on our discord!</a> </p>
+      text: <p>That's not really a question, but we love the enthusiasm! <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">You can find way more technical details, support, and project info all on our discord!</a> </p>
     }
   ]
 
@@ -52,12 +52,12 @@ function App() {
     {
       step: "Step 1 : ",
       title: " Assemble the Flock",
-      text: "As with all great migrations, a tremendous flock must first assemble. Our first goal is to recruit & spread word of the Mediocre Mallards through Discord, Twitter, and of course local ponds. We are hoping to gather a flock 10,000 Mallards strong, at which point the migration will ensue!"
+      text: "As with all great migrations, a flock must first assemble. We will recruit & spread the word of the Mediocre Mallards through Discord, Twitter, Tiktok, and of course local ponds. We are hoping to gather a flock 10,000 Mallards strong, at which point the migration will begin!!"
     },
     {
       step: "Step 2 : ",
       title: " Migration!!",
-      text: "Yes you read that right, as soon as our flock is 10,000 strong, minting goes live! Mallards will migrate from the smart contract into wallets all around the world. Prepare yourself, this could be one of the fastest migrations ever! "
+      text: "Yes you read that right, as soon as our Discord server has 10,000 members, minting goes live! Mallards will migrate from the smart contract into wallets all around the world. Flock members who were most active in the Discord will have first priority before minting goes public for all."
     },
     {
       step: "Step 3 : ",
@@ -87,6 +87,10 @@ function App() {
         </div>
       </div>
 
+      {/*Duck quote */}
+      <div className="bg-black w-full h-auto">
+        <div className="font-gloria font-xl text-white pt-5 pb-5"> "How fleeting are all human passions compared with the massive continuity of ducks." - Dorothy L. Sayers</div>
+      </div>
       {/* Project Stats */}
       <div className="bg-booyah bg-cover w-full font-roboto text-white">
       <a name="Stats" />
@@ -169,7 +173,7 @@ function App() {
               </div>)}
             </div>
           </Reveal>
-          <Reveal>
+          <Reveal type={<Fade right />} from={{ y: 1800 }} to={{ y: 0 }}>
           <div className="text-white font-gloria text-l pt-2 pb-6">These exact mallards may not be part of our migration, as we are still incorporating flock suggested attributes!</div>
           </Reveal>
         </div>

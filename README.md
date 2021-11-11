@@ -1,3 +1,2 @@
-# react-nft-template
-A template for a nft website with minting functionality
-[Demo](https://react-nft-template.vercel.app/)
+# Mediocre Mallards Website
+Source code for the Mediocre Mallards NFT project website
