@@ -164,9 +164,8 @@ const Mint = (props) => {
         <Reveal type={<RubberBand />} className="">
           <div className="bg-hero bg-cover z-0 h-70 w-5/6 m-auto rounded my-3 text-black">
           <div className="containerr text-black font-gloria text-6xl rounded pb-12 pt-3">Minting!</div>
-              <button className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria m-2">Connect Wallet</button>
-              <button disabled={!web3} className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria m-2">Mint a Mallard!</button>
-              <div className="containerr text-black font-gloria text-xl rounded pb-12 pt-5">( It's not quite time to migrate yet! )</div>
+              <a href="https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink" className="px-4 py-3 shadow-2xl drop-shadow-2xl border-2 border-gray-900 bg-blue-200 rounded ml-3 font-gloria m-2">Migrate!</a>
+              <div className="containerr text-black font-gloria text-xl rounded pb-12 pt-5">( Don't click the button, it's not time to migrate yet! )</div>
           </div>
         </Reveal>
       </div>

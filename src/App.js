@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FaTwitter, FaTiktok, FaDiscord, FaRegCopyright, FaStore} from 'react-icons/fa';
+import { FaTwitter, FaDiscord, FaRegCopyright, FaStore} from 'react-icons/fa';
 import Nav from './Nav';
 import Mint from './Mint';
 import WebFont from 'webfontloader';
@@ -24,7 +24,7 @@ function App() {
     {
       step: "01",
       title: "What's an NFT?",
-      text: "    An NFT is a digital good that is unique, authentic, and entirely yours! NFTs can take the form of images, videos, songs, animations, web domains, and much more. Mediocre Mallards come as a PNG image file, packed with fun attributes, personality traits, and even a birthday!"
+      text: <p>    An NFT is a digital good that is unique, authentic, and entirely yours! NFTs can take the form of images, videos, songs, animations, web domains, and much more. Mediocre Mallards come as an image file packed with fun attributes, personality traits, and even a birthday! If you purchase and hold your Mediocre Mallard, you will also get a free one of a kind hat at no extra cost! Join our <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">discord</a> for more details!</p>
     },
     {
       step: "02",
@@ -34,17 +34,17 @@ function App() {
     {
       step: "04",
       title: "How do I mint one?",
-      text: <p> Great question! The first step is to get yourself a <a href="https://metamask.io/" className="text-xl font-gloria">digital wallet.</a> You'll also need to deposit some Ether (money) into the wallet! You can use a service like <a href="https://www.coinbase.com/" className="text-xl font-gloria">coinbase</a> to buy Ethereum, then send that Ethereum to your Metamask wallet! Once that's done, you can connect your wallet to this website using the <a href={`#${"Mint"}`} className="text-xl font-gloria">Connect Wallet</a> button. From there, you are ready to mint a mallard as soon as the migration begins!</p>
+      text: <p> Great question! The first step is to get yourself a <a href="https://metamask.io/" className="text-xl font-gloria">digital wallet</a> and put some Ethereum into it. You can use a service like <a href="https://www.coinbase.com/" className="text-xl font-gloria">coinbase</a> to buy and then send Ethereum to your new digital wallet! Our sale price is 0.05 ETH per mallard, but it's always a good idea to keep some extra change in your wallet, an extra 0.01 ETH is a safe bet! Once that's finished, you're ready for the migration! As soon as it begins, click the <a href={`#${"Mint"}`} className="text-xl font-gloria">Migrate!</a> button. You'll be guided along the last (easy) steps to buy your very own mallard!</p>
     },
     {
       step: "03",
       title: "How can I join the flock?",
-      text: "This one is easy! Remember those social media icons at the top (and bottom) of this page? Go to them! Simply join our Discord server to become part of the flock! You should definetely check out our Tiktok & Twitter as well though!"
+      text: "This one is easy! Remember those social media icons at the top (and bottom) of this page? Go to them! Simply join our Discord server to become part of the flock! You should definitely check out our Twitter as well though!"
     }, 
     {
       step: "04",
       title: "I want more details!",
-      text: <p>That's not really a question, but we love the enthusiasm! <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">You can find way more technical details, support, and project info all on our discord!</a> </p>
+      text: <p>That's not really a question, but we love your enthusiasm! <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-gloria">You can find way more technical details, support, and project info all on our discord!</a> </p>
     }
   ]
 
@@ -52,17 +52,17 @@ function App() {
     {
       step: "Step 1 : ",
       title: " Assemble the Flock",
-      text: "As with all great migrations, a flock must first assemble. We will recruit & spread the word of the Mediocre Mallards through Discord, Twitter, Tiktok, and of course local ponds. We are hoping to gather a flock 10,000 Mallards strong, at which point the migration will begin!!"
+      text: "As with all great migrations, a flock must first assemble. We will recruit & spread the word of the Mediocre Mallards through Discord, Twitter, and of course local ponds. We are hoping to gather a flock 10,000 Mallards strong, at which point the migration will begin!!"
     },
     {
       step: "Step 2 : ",
       title: " Migration!!",
-      text: "Yes you read that right, as soon as our Discord server has 10,000 members, minting goes live! Mallards will migrate from the smart contract into wallets all around the world. Flock members who were most active in the Discord will have first priority before minting goes public for all."
+      text: <p>Yes you read that right, as soon as our Discord server has 10,000 members, minting goes live! Mallards will migrate from the smart contract into wallets all around the world. Each mallard will cost 0.05 ETH, and you may adopt up to 3 with each transaction. Find more info, help, and details about the migration in our <a href="https://discord.gg/JCrz4g7MuX" className="text-xl font-bold font-gloria"> discord!</a> </p>
     },
     {
       step: "Step 3 : ",
       title: " Conquer the world ❤️",
-      text: "After the mallards have settled down in their new homes, we hope to continue spreading joy around the world. As such, we will be offering official merchandise to mallard holders. The custom merch will even feature your own mallard on it!"
+      text: "After the mallards have settled down in their new homes, we hope to continue spreading joy around the world. As such, we will be offering free custom embroidered hats for all initial mallard holders. Each hat is one of a kind and only mallard holders may claim one! Additionally, following a successful migration, we will be donating $25,000 to New England Wildlife Centers! (a non-profit that provides medical care for wild animals ❤️)"
     }
   ]
 
@@ -79,7 +79,6 @@ function App() {
             <div className="text-left select-none font-gloria text-3xl mt-5 text-black pb-3 mx-0">A digital collection of 9,250 quirky, lovable, and totally unique ducks.</div>
             <div className="ml-4 flex flex-nowrap">
             <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-7 mt-3" size={40} /></a>
-            <a href="https://www.tiktok.com/@mediocremallards"><FaTiktok className="ml-7 mt-3" size={40} /></a>
             <a href="https://discord.gg/JCrz4g7MuX"><FaDiscord className="ml-7 mt-3" size={40} /></a>
             <br /><br />
             </div>
@@ -208,7 +207,6 @@ function App() {
               <a href={`#${""}`}><FaRegCopyright className="ml-3 mb-2 mt-7 text-white mr-2" size={20} /></a>
               <p className="text-l font-gloria mb-2  mt-auto text-white align-middle"> 2021 Mediocre Mallards</p>
               <a href="https://twitter.com/MediocreMallard"><FaTwitter className="ml-3 mt-5 text-white" size={40} /></a>
-              <a href="https://www.tiktok.com/@mediocremallards"><FaTiktok className="ml-3 mt-5 text-white" size={40} /></a>
               <a href="https://discord.gg/JCrz4g7MuX"><FaDiscord className="ml-3 mt-5 text-white" size={40} /></a>
             </div>
           </div>
