@@ -1,7 +1,8 @@
 [
     {
-        "name": "Zina",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Zina.png",
+        "description": "Salutations! My name's Blaine and I've got a silly personality. My hobbies include historical reenactments, playing baseball, and a social media addiction!",
+        "name": "Blaine",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Blaine.png",
         "attributes": [
             {
                 "trait_type": "Background",
@@ -9,163 +10,11 @@
             },
             {
                 "trait_type": "Footwear",
-                "value": "Yellow + Blue Mismatched Sneakers"
+                "value": "Orange Sneakers"
             },
             {
                 "trait_type": "Bill",
                 "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "Blue + Yellow Backpack"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Light Blue Tie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Spilled Milk"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Sailor's Cap"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "White"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Orange"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "The Bunny Queen"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "9.259111133333333"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "8.586253333333332"
-            }
-        ]
-    },
-    {
-        "name": "Montez",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Montez.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Yellow"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Muddy Feet"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Natural"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "The Sun!"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Light Pink Tie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Chef's Hat"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Yellow"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "A Bunny"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "15.715111199999997"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "12.104633333333334"
-            }
-        ]
-    },
-    {
-        "name": "Moya",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Moya.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Red"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Teal Sneakers"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "Cool Sun"
             },
             {
                 "trait_type": "Clothes",
@@ -173,19 +22,15 @@
             },
             {
                 "trait_type": "Body",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
+                "value": "Bright Yellow"
             },
             {
                 "trait_type": "Tail",
-                "value": "Bright Orange"
+                "value": "Bright Yellow"
             },
             {
                 "trait_type": "Head",
-                "value": "Bright Lime"
+                "value": "Bright Teal"
             },
             {
                 "trait_type": "Legs",
@@ -193,41 +38,55 @@
             },
             {
                 "trait_type": "Headgear",
-                "value": "Headband"
+                "value": "Grey Beanie"
             },
             {
                 "trait_type": "Outline",
                 "value": "Black"
             },
             {
-                "trait_type": "Nameplate",
-                "value": "Rainbow Confetti!"
-            },
-            {
-                "trait_type": "Right Lower Extras",
+                "trait_type": "Goodies",
                 "value": "None"
             },
             {
+                "trait_type": "Nameplate",
+                "value": "Purple"
+            },
+            {
                 "trait_type": "Wing",
-                "value": "Bright Pink"
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "A Turtle"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
             },
             {
                 "trait_type": "Actual Odds",
-                "value": "18.775777866666665"
+                "value": "25.232666666666667"
             },
             {
                 "trait_type": "Theoretical Odds",
-                "value": "12.756186666666668"
+                "value": "17.85114666666667"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "-50895012.0"
             }
         ]
     },
     {
-        "name": "Serra",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Serra.png",
+        "description": "Yeeeehawww! My name's Beck and I've got a silly personality. My hobbies include playing with animals, knitting, and impersonating B-list celebrities!",
+        "name": "Beck",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Beck.png",
         "attributes": [
             {
                 "trait_type": "Background",
-                "value": "Light Teal"
+                "value": "Light Yellow"
             },
             {
                 "trait_type": "Footwear",
@@ -235,291 +94,75 @@
             },
             {
                 "trait_type": "Bill",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "White + Rainbow Backpack"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "None"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Head",
                 "value": "Bright Orange"
             },
             {
+                "trait_type": "Clothes",
+                "value": "Blue Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Lime"
+            },
+            {
                 "trait_type": "Legs",
-                "value": "Bright Blue"
+                "value": "Bright Yellow"
             },
             {
                 "trait_type": "Headgear",
-                "value": "None"
+                "value": "Rainbow Beanie"
             },
             {
                 "trait_type": "Outline",
-                "value": "White"
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Cool Sun"
             },
             {
                 "trait_type": "Nameplate",
                 "value": "Blue"
             },
             {
-                "trait_type": "Right Lower Extras",
-                "value": "A Dove"
+                "trait_type": "Wing",
+                "value": "Bright Lime"
             },
             {
-                "trait_type": "Wing",
-                "value": "Bright Red"
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "Balloons!"
             },
             {
                 "trait_type": "Actual Odds",
-                "value": "16.23755553333333"
+                "value": "19.060666666666666"
             },
             {
                 "trait_type": "Theoretical Odds",
-                "value": "13.21064"
+                "value": "14.031293333333334"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "914218511.0"
             }
         ]
     },
     {
-        "name": "Elaina",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Elaina.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Pink"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "A Friend"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Diamond Necklace"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Wants Peas"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Yellow"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Hard Hat"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "19.197111133333333"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "13.5669"
-            }
-        ]
-    },
-    {
-        "name": "Romie",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Romie.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Blue"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Muddy Feet"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Orange Bowtie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Red"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Headband"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Rainbow Confetti!"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "21.133555533333332"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "13.866446666666667"
-            }
-        ]
-    },
-    {
-        "name": "Desire",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Desire.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Yellow"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Muddy Feet"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Gold Chain"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Red"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "A Bunny"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Yellow"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "21.705777800000003"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "14.141519999999998"
-            }
-        ]
-    },
-    {
-        "name": "Lazer",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Lazer.png",
+        "description": "Greetings! My name's Chong and I've got a dashing personality. My hobbies include board games, woodworking, and taking the seeds out of watermelon!",
+        "name": "Chong",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Chong.png",
         "attributes": [
             {
                 "trait_type": "Background",
@@ -527,15 +170,11 @@
             },
             {
                 "trait_type": "Footwear",
-                "value": "Socks"
+                "value": "None"
             },
             {
                 "trait_type": "Bill",
                 "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
             },
             {
                 "trait_type": "Clothes",
@@ -543,19 +182,95 @@
             },
             {
                 "trait_type": "Body",
-                "value": "Natural"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "None"
+                "value": "Bright Red"
             },
             {
                 "trait_type": "Tail",
-                "value": "Bright Teal"
+                "value": "Bright Pink"
             },
             {
                 "trait_type": "Head",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "Sailor's Cap"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "None"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Teal"
+            },
+            {
+                "trait_type": "Wing",
                 "value": "Bright Lime"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "Lime + Purple Backpack"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "24.977999999999998"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "18.185"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "874083766.0"
+            }
+        ]
+    },
+    {
+        "description": "Howdy! My name's Crista and I've got a delightful personality. My hobbies include rock climbing, commercial photography, and reading!",
+        "name": "Crista",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Crista.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Yellow"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Blue Sneakers"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Lime"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "None"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Pink"
             },
             {
                 "trait_type": "Legs",
@@ -570,404 +285,48 @@
                 "value": "Black"
             },
             {
-                "trait_type": "Nameplate",
-                "value": "Yellow"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "A Turtle"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "21.069555533333336"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "14.40408"
-            }
-        ]
-    },
-    {
-        "name": "Bray",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Bray.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Purple"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Orange Sneakers"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Upper Extras",
+                "trait_type": "Goodies",
                 "value": "None"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Light Lime Tie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Blue"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
             },
             {
                 "trait_type": "Nameplate",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "23.765555600000003"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "14.655473333333333"
-            }
-        ]
-    },
-    {
-        "name": "Latifa",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Latifa.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Purple"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Teal Sneakers"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Blue Bowtie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Natural"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Red"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Chef's Hat"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Rainbow"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "22.17977786666667"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "14.911173333333334"
-            }
-        ]
-    },
-    {
-        "name": "Makeba",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Makeba.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Orange"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "None"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Natural"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Purple"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Wing",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Actual Odds",
-                "value": "25.76755566666667"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "15.170399999999999"
-            }
-        ]
-    },
-    {
-        "name": "Rosana",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Rosana.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Yellow"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "Purple Sneakers"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "Blue + Yellow Backpack"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "None"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Red"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Wants Peas"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "Sailor's Cap"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Purple"
-            },
-            {
-                "trait_type": "Right Lower Extras",
-                "value": "None"
+                "value": "Blue"
             },
             {
                 "trait_type": "Wing",
                 "value": "Bright Yellow"
             },
             {
-                "trait_type": "Actual Odds",
-                "value": "21.740000000000002"
-            },
-            {
-                "trait_type": "Theoretical Odds",
-                "value": "15.446393333333333"
-            }
-        ]
-    },
-    {
-        "name": "Anya",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Anya.png",
-        "attributes": [
-            {
-                "trait_type": "Background",
-                "value": "Light Orange"
-            },
-            {
-                "trait_type": "Footwear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Bill",
-                "value": "Bright Lime"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "Pink + Teal Backpack"
-            },
-            {
-                "trait_type": "Clothes",
-                "value": "Orange Bowtie"
-            },
-            {
-                "trait_type": "Body",
-                "value": "Bright Red"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "None"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Red"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Bright Purple"
-            },
-            {
-                "trait_type": "Legs",
-                "value": "Bright Teal"
-            },
-            {
-                "trait_type": "Headgear",
-                "value": "None"
-            },
-            {
-                "trait_type": "Outline",
-                "value": "Black"
-            },
-            {
-                "trait_type": "Nameplate",
-                "value": "Red"
-            },
-            {
-                "trait_type": "Right Lower Extras",
+                "trait_type": "Companion",
                 "value": "A Dove"
             },
             {
-                "trait_type": "Wing",
-                "value": "Bright Purple"
+                "trait_type": "Extras",
+                "value": "None"
             },
             {
                 "trait_type": "Actual Odds",
-                "value": "21.81133326666667"
+                "value": "24.15666666666667"
             },
             {
                 "trait_type": "Theoretical Odds",
-                "value": "15.731200000000001"
+                "value": "16.92324"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "673226023.0"
             }
         ]
     },
     {
-        "name": "Baylee",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Baylee.png",
+        "description": "Good day! My name's Drema and I've got a delightful personality. My hobbies include walking cats, knitting, and playing softball!",
+        "name": "Drema",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Drema.png",
         "attributes": [
             {
                 "trait_type": "Background",
-                "value": "Light Yellow"
+                "value": "Light Orange"
             },
             {
                 "trait_type": "Footwear",
@@ -975,35 +334,27 @@
             },
             {
                 "trait_type": "Bill",
-                "value": "Bright Yellow"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
+                "value": "Bright Red"
             },
             {
                 "trait_type": "Clothes",
-                "value": "Orange Bowtie"
+                "value": "Purple Bowtie"
             },
             {
                 "trait_type": "Body",
-                "value": "Bright Orange"
-            },
-            {
-                "trait_type": "Left Lower Extras",
-                "value": "Light Reading"
-            },
-            {
-                "trait_type": "Tail",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Head",
                 "value": "Bright Yellow"
             },
             {
+                "trait_type": "Tail",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Teal"
+            },
+            {
                 "trait_type": "Legs",
-                "value": "Bright Purple"
+                "value": "Bright Teal"
             },
             {
                 "trait_type": "Headgear",
@@ -1014,30 +365,44 @@
                 "value": "Black"
             },
             {
+                "trait_type": "Goodies",
+                "value": "None"
+            },
+            {
                 "trait_type": "Nameplate",
                 "value": "Black"
             },
             {
-                "trait_type": "Right Lower Extras",
+                "trait_type": "Wing",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "A Really Cool Dove"
+            },
+            {
+                "trait_type": "Extras",
                 "value": "None"
             },
             {
-                "trait_type": "Wing",
-                "value": "Bright Yellow"
-            },
-            {
                 "trait_type": "Actual Odds",
-                "value": "25.807777866666665"
+                "value": "28.97533333333333"
             },
             {
                 "trait_type": "Theoretical Odds",
-                "value": "16.0854"
+                "value": "19.901486666666667"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "327989783.0"
             }
         ]
     },
     {
-        "name": "Genia",
-        "image": "http://ipfs.io/ipfs/QmenJEuExJKqZTfJjpNfb8XDPEpGb47ENJiUZ5ZV9LA1Ug/Genia.png",
+        "description": "Hello! My name's Dyanne and I've got an elegant personality. My hobbies include playing with animals, playing basketball, and rolling down hills!",
+        "name": "Dyanne",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Dyanne.png",
         "attributes": [
             {
                 "trait_type": "Background",
@@ -1045,27 +410,499 @@
             },
             {
                 "trait_type": "Footwear",
-                "value": "Lime Sneakers"
+                "value": "Killer Heels"
             },
             {
                 "trait_type": "Bill",
-                "value": "Bright Pink"
-            },
-            {
-                "trait_type": "Upper Extras",
-                "value": "None"
+                "value": "Bright Blue"
             },
             {
                 "trait_type": "Clothes",
-                "value": "Light Blue Tie"
+                "value": "None"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Light Reading"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "28.951999999999998"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "18.36016"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "661584976.0"
+            }
+        ]
+    },
+    {
+        "description": "Ahoy! My name's Filip and I've got a fun-loving personality. My hobbies include pole dancing, microsoft excel, and playing softball!",
+        "name": "Filip",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Filip.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Blue"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "None"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Lime"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "White"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Oat Milk"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "25.050666666666665"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "17.00780666666667"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "909747271.0"
+            }
+        ]
+    },
+    {
+        "description": "Hello friend! My name's Glynis and I've got a delightful personality. My hobbies include historical reenactments, writing poetry, and a social media addiction!",
+        "name": "Glynis",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Glynis.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Teal"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Orange Sneakers"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Orange"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Light Pink Tie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Orange"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "Rainbow Beanie"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Wants Peas"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "A Bug"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "22.370666666666672"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "16.01636"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "273129098.0"
+            }
+        ]
+    },
+    {
+        "description": "Hi, you look beautiful today! My name's Janina and I've got a delightful personality. My hobbies include historical reenactments, baking cookies, and sledding!",
+        "name": "Janina",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Janina.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Yellow"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Purple Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Lime"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Lime"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "The Sun!"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "30.793333333333333"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "20.684906666666674"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "720952767.0"
+            }
+        ]
+    },
+    {
+        "description": "Salutations! My name's Jarrin and I've got an elegant personality. My hobbies include historical reenactments, scrapbooking, and long walks on the beach!",
+        "name": "Jarrin",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Jarrin.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Orange"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Orange Sneakers"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "None"
             },
             {
                 "trait_type": "Body",
                 "value": "Bright Blue"
             },
             {
-                "trait_type": "Left Lower Extras",
+                "trait_type": "Tail",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "Hard Hat"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Cool Sun"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Lime"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "A Dove"
+            },
+            {
+                "trait_type": "Extras",
                 "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "25.62133333333333"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "18.4439"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "848859570.0"
+            }
+        ]
+    },
+    {
+        "description": "Hi, you look beautiful today! My name's Jvon and I've got an amarous personality. My hobbies include walking cats, scrapbooking, and a social media addiction!",
+        "name": "Jvon",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Jvon.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Orange"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Socks"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Purple Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Cool Sun"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Purple"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "28.944666666666663"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "19.506813333333337"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "423831968.0"
+            }
+        ]
+    },
+    {
+        "description": "What's up? My name's Lana and I've got a dazzling personality. My hobbies include solving puzzles, video games, and racing toy cars!",
+        "name": "Lana",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Lana.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Yellow"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Yellow Sneakers"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Orange Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Yellow"
             },
             {
                 "trait_type": "Tail",
@@ -1077,7 +914,87 @@
             },
             {
                 "trait_type": "Legs",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "Hard Hat"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "None"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Purple"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Orange"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "A Turtle"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "23.13666666666667"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "16.828259999999997"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "1246478117.0"
+            }
+        ]
+    },
+    {
+        "description": "Hi, you look beautiful today! My name's Leia and I've got a spontaneous personality. My hobbies include pole dancing, origami, and self-care!",
+        "name": "Leia",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Leia.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Purple"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Pink Sneakers"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Orange"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Blue Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Head",
                 "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Pink"
             },
             {
                 "trait_type": "Headgear",
@@ -1088,24 +1005,197 @@
                 "value": "Black"
             },
             {
+                "trait_type": "Goodies",
+                "value": "Wants Peas"
+            },
+            {
                 "trait_type": "Nameplate",
                 "value": "Blue"
             },
             {
-                "trait_type": "Right Lower Extras",
+                "trait_type": "Wing",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Companion",
                 "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "Blue + Yellow Backpack"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "24.789333333333335"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "17.4253"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "1223299174.0"
+            }
+        ]
+    },
+    {
+        "description": "Welcome friend. My name's Priya and I've got a silly personality. My hobbies include rock climbing, origami, and racing toy cars!",
+        "name": "Priya",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Priya.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Yellow"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "Muddy Feet"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "Blue Bowtie"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Teal"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Matches"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Black"
+            },
+            {
+                "trait_type": "Wing",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Companion",
+                "value": "None"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "None"
+            },
+            {
+                "trait_type": "Actual Odds",
+                "value": "27.998"
+            },
+            {
+                "trait_type": "Theoretical Odds",
+                "value": "18.529233333333334"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "600520718.0"
+            }
+        ]
+    },
+    {
+        "description": "Welcome friend. My name's Sidney and I've got an elegant personality. My hobbies include candle making, playing baseball, and rolling down hills!",
+        "name": "Sidney",
+        "image": "http://ipfs.io/ipfs/QmfXCesg9UzRqVEuzfBBdyGsC3VLChu7snnVTEjZ2WjCTB/Sidney.png",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Light Lime"
+            },
+            {
+                "trait_type": "Footwear",
+                "value": "None"
+            },
+            {
+                "trait_type": "Bill",
+                "value": "Bright Blue"
+            },
+            {
+                "trait_type": "Clothes",
+                "value": "None"
+            },
+            {
+                "trait_type": "Body",
+                "value": "Bright Pink"
+            },
+            {
+                "trait_type": "Tail",
+                "value": "Bright Purple"
+            },
+            {
+                "trait_type": "Head",
+                "value": "Bright Yellow"
+            },
+            {
+                "trait_type": "Legs",
+                "value": "Bright Red"
+            },
+            {
+                "trait_type": "Headgear",
+                "value": "Headband"
+            },
+            {
+                "trait_type": "Outline",
+                "value": "Reflected Rainbow"
+            },
+            {
+                "trait_type": "Goodies",
+                "value": "Ball & Chain"
+            },
+            {
+                "trait_type": "Nameplate",
+                "value": "Orange"
             },
             {
                 "trait_type": "Wing",
                 "value": "Bright Lime"
             },
             {
+                "trait_type": "Companion",
+                "value": "A Little Poo"
+            },
+            {
+                "trait_type": "Extras",
+                "value": "Lime + Purple Backpack"
+            },
+            {
                 "trait_type": "Actual Odds",
-                "value": "25.594666733333334"
+                "value": "12.139999999999997"
             },
             {
                 "trait_type": "Theoretical Odds",
-                "value": "16.573439999999998"
+                "value": "10.316693333333331"
+            },
+            {
+                "display_type": "date",
+                "trait_type": "Birthday",
+                "value": "1290694233.0"
             }
         ]
     }
